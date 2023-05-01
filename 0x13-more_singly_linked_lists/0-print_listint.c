@@ -1,4 +1,4 @@
-/**
+/*
   * Author: Mack Octavian
   * File: 0-print_listint.c
   * Description: a function that prints all the elements
@@ -16,7 +16,11 @@
 size_t print_listint(const listint_t *h)
 {
 	size_t count = 0;
+
 	for (; h != NULL; h = h->next;)
+	{
 		count++;
+		printf("%d\n", h->n);
+	}
 	return (count);
 }
