@@ -3,7 +3,7 @@
  * File: 1-listint_len.c
  */
 
-#include "main.h"
+#include "lists.h"
 
 /**
   * listint_len - function that returns the number of elements
