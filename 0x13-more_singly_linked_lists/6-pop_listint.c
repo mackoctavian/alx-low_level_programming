@@ -2,6 +2,7 @@
  * Author: Mack Octavian
  * File: 6-pop_listint.c
  */
+#include "lists.h"
 
 /**
  * pop_listint - Deletes the head node of a listint_t list.
